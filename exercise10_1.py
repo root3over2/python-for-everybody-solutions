@@ -30,7 +30,7 @@ fname = input('Enter file name: ')
 try:
     fhand = open(fname)
 except FileNotFoundError:
-    print('File cannot be opened:', fname)
+    print('File cannot be opened: ', fname)
     quit()
 
 for line in fhand:
